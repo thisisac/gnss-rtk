@@ -174,18 +174,16 @@ The source targets Windows/MSVC and uses `windows.h`, Winsock, and `fopen_s`. Us
 - 原始 Base/Rover 二进制数据未发布；
 - Socket 地址仍需在代码或配置中替换为用户自己的数据源；
 - 没有跨平台构建系统和自动化数值回归测试；
-- 报告中的厘米级结果依赖特定数据、基线、参考坐标和参数；
+- 已归档结果中的厘米级精度依赖特定数据、基线、参考坐标和参数；
 - Some experiment outputs are archived results rather than guaranteed reference outputs.
 
-## 9. 报告与结果 / Reports and Results
+## 9. 结果与技术文档 / Results and Technical Documentation
 
-- `docs/RTK-course-report.pdf`：RTK 算法和程序设计报告；
-- `docs/SPP-background-report.pdf`：RTK 所依赖的 SPP 报告；
-- `docs/Run-guide.pdf`：原始运行说明；
 - `results/LSQ/`、`results/EKF/`：不同处理路径和数据集的结果；
 - `results/**/myRTKDRAW.m`：MATLAB 绘图脚本。
+- 个人课程报告、背景报告和原始运行说明因包含个人信息，未随仓库发布。
 
-The same materials are retained for English-speaking readers; the original reports are Chinese course documents, while this repository documentation is bilingual.
+Personal course reports and original private run guides are intentionally excluded; the repository's technical documentation is bilingual.
 
 ## 10. 许可证 / License
 
