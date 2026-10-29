@@ -11,3 +11,7 @@ data/*.bin
 data/*.dat
 results/*.tmp
 rtk.conf
+# Private reports and office documents
+docs/*.pdf
+docs/*.doc
+docs/*.docx
