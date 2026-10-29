@@ -1,0 +1,12 @@
+sigP=0.3
+sigL=0.01
+pos_Q=25
+amb_Q=1e-10
+base_file=data/base.bin
+rover_file=data/rover.bin
+output_file=results/rtk_result.txt
+isPort=1
+rtk_mode=2
+syn_tol=0.10
+ratio_threshold=3.0
+elev_threshold=10.0

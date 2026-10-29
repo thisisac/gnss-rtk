@@ -1,0 +1,13 @@
+build/
+out/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.suo
+*.user
+*.vs/
+data/*.bin
+data/*.dat
+results/*.tmp
+rtk.conf
